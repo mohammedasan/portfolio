@@ -1,4 +1,5 @@
-import NavBar from "./Components/NavBar"
+import NavBar from "./Pages/NavBar"
+import Content from "./Pages/Content"
 import './App.css'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <NavBar/>
+      <Content/>
     </>
   )
 }
