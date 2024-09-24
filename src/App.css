@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  #home, #projects {
+    padding-top: 60px; /* To offset the fixed navbar */
+  }
+  .slide-in {
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+  
+  .visible {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  
