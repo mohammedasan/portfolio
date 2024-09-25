@@ -13,9 +13,9 @@ const Skills = () => {
     <section className="bg-gray-500 py-10" id="skill">
       <div id="skill" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-bold text-gray-300 text-center mb-8">Skills</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
           {skills.map((skill, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg shadow-md">
+            <div key={index} className="bg-white p-6 rounded-lg shadow-md transition-transform duration-300 transform hover:scale-105 hover:shadow-xl">
               <h3 className="text-2xl font-semibold text-gray-800 mb-4">{skill.name}</h3>
               <div className="w-full bg-gray-300 rounded-full h-4">
                 <div

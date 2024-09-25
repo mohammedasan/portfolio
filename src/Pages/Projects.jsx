@@ -7,9 +7,8 @@ const Projects = () => {
           Projects
         </h2>
         
-        {/* Drug Inventory Management Card */}
         <div className="bg-gray-950 shadow-lg rounded-lg mb-10 transition-transform duration-300 transform hover:scale-105 hover:shadow-xl">
-          <div className="p-6">
+          <div className="p-6"><a href="https://github.com/mohammedasan/" target="_blank">
             <h3 className="text-2xl font-semibold text-white mb-3">
               Drug Inventory Management and Tracking System
             </h3>
@@ -31,12 +30,13 @@ const Projects = () => {
                 React-based frontend.
               </li>
             </ul>
+            </a>
           </div>
         </div>
 
         {/* Dress E-commerce Website Card */}
         <div className="bg-gray-950 shadow-lg rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-xl">
-          <div className="p-6">
+          <div className="p-6"><a href="https://joyful-yeot-ae8d19.netlify.app/" target="_blank">
             <h3 className="text-2xl font-semibold text-white mb-3">
               Dress E-commerce Website
             </h3>
@@ -58,7 +58,36 @@ const Projects = () => {
                 user engagement.
               </li>
             </ul>
+            </a>
           </div>
+        </div>
+
+        <div className="bg-gray-950 shadow-lg rounded-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-xl mt-10">
+          <div className="p-6"><a href="https://master--sunny-zabaione-ec5b75.netlify.app/" target="_blank">
+            <h3 className="text-2xl font-semibold text-white mb-3">
+              Old-Portfolio
+            </h3>
+            <p className="text-white mb-4">
+              <span className="font-bold">Tech Stack:</span> MERN (MongoDB, Express, React, Node.js)
+            </p>
+            <p className="text-white mb-2">
+              Designed and developed a scalable e-commerce platform tailored for selling
+              dresses, providing an intuitive shopping experience for customers.
+            </p>
+            <ul className="list-disc list-inside text-white mb-4">
+              <li>Integrated user authentication, shopping cart, and payment processing.</li>
+              <li>
+                Utilized MongoDB for dynamic product catalog management, real-time stock updates,
+                and product filters.
+              </li>
+              <li>
+                Ensured cross-device compatibility and SEO optimization for better
+                user engagement.
+              </li>
+            </ul>
+            </a>
+          </div>
+          
         </div>
       </div>
     </section>

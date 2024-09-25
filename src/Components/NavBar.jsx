@@ -39,7 +39,7 @@ const NavBar = ({ appName }) => {
     }, []);
 
     return (
-        <div className={`w-screen h-[3.5rem] flex flex-col fixed top-0 z-10 transition-all duration-300 ${isScrolled ? 'bg-slate-900' : 'bg-transparent'}`}>
+        <div className={`w-screen h-[3.5rem] flex flex-col fixed top-0 z-10 transition-all duration-300 ${isScrolled ? 'bg-slate-900' : 'bg-transparent'} z-40`}>
             <div className="w-full h-full flex justify-between items-center px-4">
                 <h1 className="text-pink-500 md:text-2xl sm:text-xl flex justify-start items-center">
                     {appName || 'PORTFOLIO'}

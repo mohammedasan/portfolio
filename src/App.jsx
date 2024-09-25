@@ -4,6 +4,8 @@ import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
 import Skills from "./Pages/Skills";
 import Resume from "./Pages/Resume";
+import Contact from "./Pages/Contact";
+import Social from "./Pages/social";
 import './App.css'
 
 function App() {
@@ -23,6 +25,12 @@ function App() {
       <div>
           <Resume />
         </div>
+      <div>
+        <Contact/>
+      </div>
+      <div>
+        <Social/>
+      </div>
       </>
   )
 }
