@@ -3,7 +3,7 @@
     const Social = () => {
     return (
         
-   <div className="w-full bg-slate-500">     
+   <div className="w-full bg-slate-500" id="soc">     
     <div class="flex items-center gap-4 justify-center">
     <div class="social-button">
         <button class="relative w-12 h-12 rounded-full group">

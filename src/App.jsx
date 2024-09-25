@@ -5,7 +5,7 @@ import Projects from "./Pages/Projects";
 import Skills from "./Pages/Skills";
 import Resume from "./Pages/Resume";
 import Contact from "./Pages/Contact";
-import Social from "./Pages/social";
+import Social from "./Pages/Social";
 import './App.css'
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
       <div>
         <Contact/>
       </div>
-      <div>
+      <div id="soc">
         <Social/>
       </div>
       </>
