@@ -25,7 +25,7 @@ function App() {
       <div>
           <Resume />
         </div>
-      <div>
+      <div id="con">
         <Contact/>
       </div>
       <div id="soc">

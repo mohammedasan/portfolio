@@ -55,7 +55,7 @@ const NavBar = ({ appName }) => {
                         <Link to="skill" smooth={true} duration={500} className="hover:text-yellow-500">Skills</Link>
                     </li>
                     <li className="hover:bg-green-900 rounded md:px-2 sm:px-1">
-                        <Link to="contact" smooth={true} duration={500} className="hover:text-yellow-500">Contact</Link>
+                        <Link to="con" smooth={true} duration={500} className="hover:text-yellow-500">Contact</Link>
                     </li>
                 </ul>
             </div>

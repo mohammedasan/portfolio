@@ -42,7 +42,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-gray-100 py-10 px-6 flex justify-center items-center">
+    <div className="bg-gray-100 py-10 px-6 flex justify-center items-center" id="con">
       <div className="bg-white p-8 rounded shadow-md max-w-md w-full z-40">
         <h2 className="text-2xl font-bold mb-6">Contact Me</h2>
         <form onSubmit={sendEmail}>
