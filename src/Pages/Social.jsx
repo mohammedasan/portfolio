@@ -3,8 +3,14 @@
     const Social = () => {
     return (
         
-   <div className="w-full bg-slate-500" id="soc">     
+   <div className="w-full h-[7rem] bg-slate-500 flex items-center justify-center "id="soc">     
     <div class="flex items-center gap-4 justify-center">
+    <a 
+      href="https://www.instagram.com/asan007_" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className=" text-white py-2 px-4 rounded"
+    >
     <div class="social-button">
         <button class="relative w-12 h-12 rounded-full group">
         <div
@@ -32,6 +38,13 @@
         </div>
         </button>
     </div>
+    </a>
+    <a 
+      href="https://github.com/mohammedasan/" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className=" text-white py-2 px-4 rounded "
+    >
     <div class="social-button">
         <button class="relative w-12 h-12 rounded-full group">
         <div
@@ -55,6 +68,13 @@
         </div>
         </button>
     </div>
+    </a>
+    <a 
+      href="https://www.linkedin.com/in/mohammedasan/" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className=" text-white py-2 px-4 rounded "
+    >
     <div class="social-button">
         <button class="relative w-12 h-12 rounded-full group">
         <div
@@ -78,6 +98,13 @@
         </div>
         </button>
     </div>
+    </a>
+    <a 
+       href="https://mail.google.com/mail/?view=cm&fs=1&to=mohammedasan1480@gmail.com" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className=" text-white py-2 px-4 rounded "
+    >
     <div class="social-button">
         <button class="relative w-12 h-12 rounded-full group">
         <div
@@ -101,6 +128,7 @@
         </div>
         </button>
     </div>
+    </a>
     </div>
     </div>
         
