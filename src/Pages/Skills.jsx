@@ -2,11 +2,11 @@ import React from "react";
 
 const Skills = () => {
   const skills = [
-    { name: "React", level: "75%" },
+    { name: "React", level: "80%" },
     { name: "MongoDB", level: "85%" },
     { name: "Express.js", level: "70%" },
     { name: "Java", level: "80%" },
-    { name: "Django", level: "60%" }
+    { name: "DSA", level: "80%" }
   ];
 
   return (
