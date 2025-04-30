@@ -42,15 +42,13 @@ const Projects = () => {
               <span className="font-bold">Tech Stack:</span> MERN (MongoDB, Express, React, Node.js)
             </p>
             <p className="text-white mb-2">
-              Developed a robust web application for managing pharmaceutical inventory,
-              allowing efficient tracking of drugs across multiple vendors and pharmacies.
+            A comprehensive and user-friendly platform designed to help users learn new languages at their own pace.
             </p>
             <ul className="list-disc list-inside text-white mb-4">
               <li>
-                Implemented real-time stock updates and shortest-path tracking for
-                drug supply across 10 pharmaceutical shops.
+              Users can access well-structured lessons that cover grammar, vocabulary, and pronunciation with quizzes to test their knowledge.
               </li>
-              <li>Integrated location-based tracking and vendor management.</li>
+              <li> A point and reward system to keep users motivated, with levels, badges, and leaderboards.</li>
               <li>
                 Optimized backend using MongoDB for data management and a responsive
                 React-based frontend.
@@ -125,18 +123,15 @@ const Projects = () => {
               <span className="font-bold">Tech Stack:</span> MERN (MongoDB, Express, React, Node.js)
             </p>
             <p className="text-white mb-2">
-              Designed and developed a scalable e-commerce platform tailored for selling
-              dresses, providing an intuitive shopping experience for customers.
+            A modern and interactive personal portfolio built to showcase my skills, projects, and professional background.
             </p>
             <ul className="list-disc list-inside text-white mb-4">
-              <li>Integrated user authentication, shopping cart, and payment processing.</li>
+              <li>Displays detailed descriptions of my real-world projects with live demo links and GitHub repositories.</li>
               <li>
-                Utilized MongoDB for dynamic product catalog management, real-time stock updates,
-                and product filters.
+              Fully optimized for desktops, tablets, and mobile devices for a consistent experience.
               </li>
               <li>
-                Ensured cross-device compatibility and SEO optimization for better
-                user engagement.
+              Adds a modern touch with animated particles for visual appeal.
               </li>
             </ul>
             </a>
