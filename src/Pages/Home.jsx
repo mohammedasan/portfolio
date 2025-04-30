@@ -45,7 +45,7 @@ const Home = () => {
       <div className="relative z-10 mx-auto p-4 max-h-fit w-full">
         <div className="p-8 rounded-lg shadow-lg max-w-4xl mx-auto mt-8 flex flex-col justify-center items-center transition-transform duration-300 transform hover:scale-105 hover:shadow-xl">
           <img
-            src="/public/photo.jpg"
+            src="photo.jpg"
             alt="Profile"
             className="md:w-40 h-40 rounded-full object-cover"
           />
