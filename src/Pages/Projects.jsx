@@ -7,12 +7,12 @@ const Projects = () => {
           Projects
         </h2>
         <div className="bg-gray-950 shadow-lg rounded-lg mb-10 transition-transform duration-300 transform hover:scale-105 hover:shadow-xl">
-          <div className="p-6"><a href="https://mern-chat-app-1-igpj.onrender.com/" target="_blank">
+          <div className="p-6"><a href="https://chat-web-sigma-olive.vercel.app/login" target="_blank">
             <h3 className="text-2xl font-semibold text-white mb-3">
               Real Time Chat Application - Touch to View
             </h3>
             <p className="text-white mb-4">
-              <span className="font-bold">Tech Stack:</span> MERN (MongoDB, Express, React, Node.js)
+              <span className="font-bold">Tech Stack:</span> MERN (MongoDB, Express, React, Next.js)
             </p>
             <p className="text-white mb-2">
             Designed and developed a responsive real-time chat application enabling users to engage in 

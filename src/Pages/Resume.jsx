@@ -54,7 +54,7 @@ const Resume = () => {
 
       {/* Resume Button */}
       <div className="w-full sm:w-auto flex justify-center items-center">
-        <a href="/res.pdf" download="Resume_Mohammed_Asan.pdf">
+        <a href="/714022104086_Mohammed-Asan.I.pdf (8).pdf" download="Resume_Mohammed_Asan.pdf">
           <button
             className="cursor-pointer flex items-center justify-between bg-gray-800 px-5 py-3 rounded-full text-white tracking-wider shadow-xl hover:bg-gray-900 hover:scale-105 transition duration-500 hover:ring-1 font-mono"
           >

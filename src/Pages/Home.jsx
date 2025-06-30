@@ -52,7 +52,7 @@ const Home = () => {
           <div className="text-center mt-4">
             <h1 className="font-bold text-gray-950 text-2xl">Hi, I am Mohammed Asan</h1>
             <p className="text-lg text-slate-950 mt-2">
-              Hello, I'm Mohammed Asan, a passionate software developer skilled in Java, Python, and web technologies. 
+              Hello, I'm Mohammed Asan, a passionate software developer skilled in Java, DSA, and web technologies. 
               I enjoy solving algorithmic challenges and have experience working on various projects, 
               including APIs, web development, and dynamic programming.
             </p>
